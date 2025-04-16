@@ -1,12 +1,11 @@
 import './App.css'
+import Navbar from './components/Navbar/NavbarComponent'
 
 function App() {
 
-  return (
-    <>
-      <div>Hello</div>
-    </>
-  )
+	return (
+		<Navbar />
+	)
 }
 
 export default App

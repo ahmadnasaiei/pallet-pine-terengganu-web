@@ -1,0 +1,36 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: fit-content;
+    background-color: #FFEF02;
+    padding: 10px 0;
+    filter: drop-shadow(0 -4mm 3mm rgb(0, 0, 0));
+}
+
+.inner-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.inner-container img {
+    height: 60px;
+    clip-path: circle(50%);
+}
+
+.navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item span {
+    margin: 0 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.navbar-item span:hover {
+    color: #b8a11e;
+}
