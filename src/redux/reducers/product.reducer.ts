@@ -8,6 +8,21 @@ const INITIAL_STATE = {
             title: "Barn Door",
             category: "Door",
         },
+        {
+            id: 2,
+            title: "Kitchen Island",
+            category: "Kitchen Cabinet",
+        },
+        {
+            id: 3,
+            title: "Kitchen Counter Top",
+            category: "Kitchen Cabinet",
+        },
+        {
+            id: 4,
+            title: "Wooden Door",
+            category: "Door",
+        },
     ],
 };
 
